@@ -1,5 +1,6 @@
 # Sphoraka
 A simple browser extension that reminds you to take breaks.
+Compatible with Opera or Chrome.
 
 # Extension Inactive
 ![Extension Inactive](https://github.com/hhhpv/Sphoraka/blob/master/Inactive.jpg)
