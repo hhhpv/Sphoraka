@@ -12,7 +12,7 @@ chrome.browserAction.onClicked.addListener(function() {
 		if(icon_flag)
 		{
 		chrome.browserAction.setIcon({path : "extension_active.png"});
-		chrome.alarms.create("Start", {periodInMinutes:0.5});
+		chrome.alarms.create("Start", {periodInMinutes:25});
 		chrome.alarms.onAlarm.addListener(alarmHelper);
 		icon_flag=0;
 		}
